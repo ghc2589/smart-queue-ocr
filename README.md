@@ -138,7 +138,7 @@ smart-queue-ocr/
 - [x] OCR job queue management
 - [x] Parallel workers
 - [x] Dead-letter queue handling
-- [x] AI health check with confidence evaluation
+- [x] AI health check with confidence evaluation. 
 Please note: the first request might take slightly longer than usual as the AI model is loaded into memory. Subsequent requests will respond much faster.
 - [x] JSON structured logging
 - [x] Docker and Docker Compose support
