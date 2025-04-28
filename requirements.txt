@@ -1,0 +1,9 @@
+aiosqlite==0.21.0
+rapidocr-onnxruntime==1.2.3
+fastapi==0.115.12
+python-json-logger==3.3.0
+python-multipart==0.0.20
+slowapi==0.1.9
+SQLAlchemy==2.0.40
+uvicorn==0.34.2
+easyocr==1.7.2

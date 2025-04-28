@@ -1,0 +1,15 @@
+# docker-compose.yml
+services:
+  app:
+    build: .
+    container_name: smart-queue-ocr
+    expose:
+      - "8000"
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONDONTWRITEBYTECODE=1
+      - PYTHONUNBUFFERED=1
+      - MAX_WORKERS=3
