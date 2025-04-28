@@ -148,7 +148,6 @@ smart-queue-ocr/
 
 - **Dockerfile Multistage Optimization**:
   - Further optimize the final image size by installing only runtime dependencies.
-  - Build wheels and binaries in the builder stage.
 
 - **Database Enhancement**:
   - Replace SQLite with PostgreSQL for better parallelism and production-level scaling.
