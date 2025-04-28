@@ -31,7 +31,7 @@ Smart Queue OCR API is a lightweight, scalable, and asynchronous OCR (Optical Ch
 ## 🛠️ Local Installation (Without Docker)
 
 ```bash
-git clone https://github.com/youruser/smart-queue-ocr.git
+git clone https://github.com/ghc2589/smart-queue-ocr.git
 cd smart-queue-ocr
 
 python3 -m venv venv
